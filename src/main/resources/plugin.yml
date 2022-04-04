@@ -1,0 +1,17 @@
+name: SurvivalCore
+version: '${project.version}'
+main: com.superdevelopment.survivalcore.Main
+api-version: 1.13
+commands:
+  attribute:
+    description: Adds / removes stats from a player
+    usage: /<command>
+    permission: survivalcore.attribute
+  itembuilder:
+    description: Opens the item builder gui
+    usage: /<command>
+    permission: survivalcore.itembuilder
+  genchant:
+    description: Gives a player an enchant
+    usage: /<command>
+    permission: survivalcore.genchant
